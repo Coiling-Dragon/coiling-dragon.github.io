@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>My Portfolio<br /></h1>
+						<p>A showcase of my projects</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="https://github.com/Coiling-Dragon" class="logo" target="_blank">Coiling-Dragon</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="#posts">Projects</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/stanislav-viyachev/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/Coiling-Dragon" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>My name is<br />
+									Stanislav Viyachev</h2>
+									<p>I'm result driven, passionate developer. <br /> Always motivated to learn new skills and technology.</p>
+								</header>
+
+								<ul class="actions special">
+									<li><a href="https://fliby.eu/" class="button large">Check out my Django Project</a></li>
+								</ul>
+								<a href="https://fliby.eu/" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								
+							</article>
+
+						<!-- Posts -->
+							<section class="posts" id="posts">
+								<article>
+									<header>
+										<span class="date">April, 2019</span>
+										<h2><a href="https://github.com/Coiling-Dragon/Ebay_store_scraper.git">Ebay Store <br />
+											web scraper</a></h2>
+									</header>
+									<a href="https://github.com/Coiling-Dragon/Ebay_store_scraper.git" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<p>One of my first Python projects.<br />
+										It was scraping multiple Ebay stores and over 500 000 items (by UPC codes), for lowest price, changes and in/out of stock. The program had algorithms that were using selenium to update CSV files in Amazon seller central and BQool, later done through APIs.
+										The program was Iterated over 30 times in a span of 1 year. <br />Almost zero code refactoring. Function based code.
+										</p>
+									<p>Tools: Python, Selenium, Requests, Beautiful Soup, Pandas</p>
+
+								</article>
+								<article>
+									<header>
+										<span class="date">June, 2019</span>
+										<h2><a href="#">Amazon Item <br />
+											web scraper</a></h2>
+									</header>
+									<a href="https://github.com/Coiling-Dragon/Amazon_item_scraper.git" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<p>This program used Selenium to log in to Amazon seller central and search through item listings. 
+										The algorithm was trying to convert UPC barcode in to ASIN code with the best sales rank and those ASINs were checked for selling permissions. 
+										The results were given to another program which was listing the items trough the AWS API.</p>
+									<p>This program was a collaboration with another developer for ComPot – Deyan Rusinov. Function based code.</p>
+										<p>Tools: Python, Selenium, Pandas</p>
+								</article>
+								<article>
+									<header>
+										<span class="date">January, 2020</span>
+										<h2><a href="https://github.com/Coiling-Dragon/Clean_inventory.git">Inventory Management<br />
+											UI Application</a></h2>
+									</header>
+									<a href="https://github.com/Coiling-Dragon/Clean_inventory.git" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+									<p>My first UI project </p>
+									<p>Created to ease the workload and eliminate the need for Excel data handling,
+										 because our data was growing fast, and Excel was starting to lag. 
+										 Created functions to automatically merge and synchronize our data base with 
+										 CSVs from our web scrapers and crawlers. The items can be filtered and searched by 
+										 multiple criteria.
+										 DB file was hosted on Google drive.</p>
+										<p>Tools: Python, Tkinter, SQLite</p>
+								</article>
+								<article>
+									<header>
+										<span class="date">June, 2020</span>
+										<h2><a href="https://github.com/Coiling-Dragon/Ebay_ordering_assistant.git">Ebay Ordering Assistant <br />
+											UI Application</a></h2>
+									</header>
+									<a href="https://github.com/Coiling-Dragon/Ebay_ordering_assistant.git" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<p>My first try at OOP</p>
+									<p>This program was used to expedite ordering from Ebay (Dropshipping). 
+										In its core is Selenium automation, with AWS seller api calls. 
+										It downloads the Amazon seller orders, parses them, finds the items in Ebay by UPC 
+										barcode and lets you choose a seller. After that it semi-automatically fills the 
+										customer address, chooses payment option and checkouts. 
+										Finally, it calculates profits and writes down the order. 
+										After execution it was uploading the data to a google sheet.</p>
+										<p>Tools: Python, Tkinter, aws api, gsheet api</p>
+								</article>
+								<article>
+									<header>
+										<span class="date">June, 2020</span>
+										<h2><a href="https://github.com/Coiling-Dragon/Email_scraper.git">Email Scraper
+										</a></h2>
+									</header>
+									<a href="https://github.com/Coiling-Dragon/Email_scraper.git" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<p>Simple script to check multiple emails for specific words and messages.</p>
+									<p>Tools: Python, imaplib</p>
+								
+								</article>
+								<article>
+									<header>
+										<span class="date">November, 2020</span>
+										<h2><a href="https://fliby.eu/">Django Website<br /> Full stack</a></h2>
+									</header>
+									<a href="https://fliby.eu/" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+								
+									<p>E-commerce website, hosted on Google App Engine. Uses agile driven development. The code is slowly being refactored and broken on smaller Django apps and functions.
+										The checkout was integrated with PayPal, later dropped for Braintree.
+										At first all the frontend design was custom made, but due to suboptimal mobile view, it was integrated with a premade template.
+										</p>
+									<p>Has a very complex DB model design</p>
+									<p>Tools: Python, Django, JS, HTML, CSS, Bootstrap, PostgreSQL, App Engine, Google translate app</p>
+								</article>
+								<article>
+									<header>
+										<span class="date">November, 2020</span>
+										<h2><a href="https://fliby.eu/">Invoice & Inventory<br /> for Fliby ltd</a></h2>
+									</header>
+									<a href="https://fliby.eu/" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
+								
+									<p>Invoicing Django application, plus inventory management and billing system for the National Revenue Agency in Bulgaria</p>
+
+									<p>Tools: Python, Django, JS, HTML, CSS, Bootstrap, PostgreSQL, App Engine, Google translate app</p>
+								</article>
+								<article>
+									<header>
+										<span class="date">June 2020</span>
+										<h2><a href="#">Cryptocurrency project<br /> Full stack </a></h2>
+									</header>
+									<a href="https://fliby.eu/" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+								
+									<p>In development</p>
+
+									<p>Trading strategy with API signals, Bot servers, Interface server + crypto token and DeFi farms (microservices architecture)
+										<br />Trading strategy module with ticker data feed is complete, working on back testing and live server signals.
+										</p>
+
+									<p>Tools:  
+										<ul>
+											<li>Strategy - Python, Pandas, Binance API </li>
+											<li>Crypto – Solidity, Ganache, Truffle Suite, Binance Smart Chain</li>
+											<li>Servers – Django/Express js</li>
+										</ul>
+									</p>
+								
+								</article>
+
+							</section>
+
+						<!-- Footer -->
+
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+					
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">sandiasazsumpro@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/stanislav-viyachev/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/Coiling-Dragon" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
